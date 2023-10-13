@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Aria */
+.header-section {
+  background: linear-gradient(
+      0deg,
+      rgba(18, 18, 18, 0.9999999999999999) 0%,
+      rgba(18, 18, 18, 0) 100%
+    ),
+    url(../images/Be\ Humble.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 175px 300px;
+  text-align: center;
+}
+.header-title {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.header-p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.primary-btn {
+  margin-top: 40px;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: sans-serif;
+  background: #ff5959;
+  padding: 16px 20px;
+}
+
+/* Main-part */
+
+.donate-amount {
+  text-align: center;
+  margin: 130px 350px;
+}
+.section-header {
+  font-size: 45px;
+  color: #121212;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.tk-amount {
+  display: flex;
+  gap: 22px;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+.tk-amount li {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  color: #767373;
+  background-color: #f6f3f3;
+  list-style: none;
+  padding: 45px 25px;
+  border-radius: 5px;
+}
+.tk-amount li:hover {
+  background-color: #ffeeee;
+  border: 2px solid #ff5959;
+}
+.amount {
+  font-size: 18px;
+  color: #b3b3b3;
+  font-weight: 400;
+  font-family: 'Poppins';
+  text-align: center;
+  margin-bottom: 14px;
+}
+hr {
+  margin-bottom: 29px;
+}
+
+/* Section Part-2 */
+.donar-plan {
+  margin: 160px 160px;
+  text-align: center;
+}
+
+.plan-item {
+  display: flex;
+  gap: 24px;
+  justify-content: space-evenly;
+}
+.type-plan {
+  text-align: left;
+  padding: 35px 25px;
+  border-radius: 5px;
+  background-color: #fff4d6;
+}
+.plan-heading {
+  font-size: 24px;
+  color: #121212;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+.plan-p {
+  font-size: 16px;
+  color: #707070;
+  font-weight: 400;
+  font-family: serif;
+  margin-top: 16px;
+}
+
+/* Slide-bar */
+
+.slide-section {
+  display: flex;
+  gap: 80px;
+  margin: 130px 250px 100px 150px;
+}
+.slide {
+  margin-top: 60px;
+}
+.slide-header {
+  margin-bottom: 20px;
+  font-size: 45px;
+  color: #121212;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.slide-text {
+  font-size: 18px;
+  color: #707070;
+  font-weight: 400;
+  font-family: 'Poppins';
+  margin-bottom: 10px;
+}
+
+/* Footer aria */
+
+.footer-aria {
+  margin: 140px 315px 45px;
+  text-align: center;
+}
+.footer-h2 {
+  font-size: 45px;
+  color: #121212;
+  font-weight: 700;
+  font-family: 'Inter';
+}
+.footer-p {
+  font-size: 18px;
+  color: #707070;
+  font-weight: 400;
+  font-family: 'Poppins';
+  margin-top: 26px 0px 52px;
+}
+.email-subscribe {
+  margin: 52px 0px 180px;
+  width: 1009px;
+  height: 200px;
+  background-color: #fff4d6;
+}
+.footer-input {
+  width: 275px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  margin-top: 70px;
+  border: none;
+  padding-left: 15px;
+}
+
+.bottom-foot {
+  font-size: 36px;
+  color: #ff5959;
+  font-weight: 400;
+  font-family: 'Lobster';
+  margin-bottom: 40px;
+}
+.nd-last {
+  font-size: 14px;
+  color: #d9dbe1;
+  font-weight: 400;
+  font-family: 'Manrope';
+}
